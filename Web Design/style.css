@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('https://i.ibb.co/pXKBx9t/background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+header .logo-container {
+  display: flex;
+  align-items: center;
+}
+
+header .logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+header .logo-container span {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+header nav ul li a:hover {
+  color: #aaa;
+}
+
+header nav ul li a i {
+  font-size: 20px;
+}
+
+.intro {
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.intro .profile-pic {
+  margin-top: 20px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.about {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 40px 20px;
+}
+
+.about h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.about .content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.about .background, .about .skills {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  width: 45%;
+  min-width: 300px;
+}
+
+.about .background h3, .about .skills h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.contact {
+  padding: 40px 20px;
+}
+
+.contact h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  font-size: 1.2em;
+}
+
+.contact a {
+  color: white;
+  text-decoration: underline;
+}
+
+.contact a:hover {
+  color: #aaa;
+}
